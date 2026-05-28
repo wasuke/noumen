@@ -1,0 +1,193 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.7ef6fb10)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_specular",
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 94552,
+            "type": "VEC3",
+            "max": [
+                131.52618408203125,
+                -43.99713134765625,
+                -435.17767333984375
+            ],
+            "min": [
+                -31.351320266723633,
+                -173.1728057861328,
+                -626.752197265625
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 94552,
+            "type": "VEC3",
+            "max": [
+                0.999434769153595,
+                0.99997878074646,
+                0.9999637007713318
+            ],
+            "min": [
+                -0.9995637536048889,
+                -0.9999852776527405,
+                -0.9993101358413696
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 94552,
+            "type": "VEC2",
+            "max": [
+                0.9979023337364197,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.23545241355895996
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 94552,
+            "type": "VEC4",
+            "max": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 537975,
+            "type": "SCALAR",
+            "max": [
+                94551
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 6690396,
+            "uri": "白蔵主面.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1134624,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1134624,
+            "byteLength": 1134624,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2269248,
+            "byteLength": 756416,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3025664,
+            "byteLength": 1512832,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4538496,
+            "byteLength": 2151900,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "./白蔵主面.jpg"
+        }
+    ],
+    "materials": [
+        {
+            "name": "material",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0
+            },
+            "doubleSided": true,
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularFactor": 1.0
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 4,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2,
+                        "COLOR_0": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}

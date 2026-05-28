@@ -1,0 +1,154 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.7ef6fb10)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_specular",
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 60882,
+            "type": "VEC3",
+            "max": [
+                174.7155303955078,
+                -7.201266765594482,
+                -485.20941162109375
+            ],
+            "min": [
+                27.620826721191406,
+                -133.91026306152344,
+                -679.5029907226563
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 60882,
+            "type": "VEC3",
+            "max": [
+                0.9919188618659973,
+                0.9999925494194031,
+                0.9999293684959412
+            ],
+            "min": [
+                -0.9994351267814636,
+                -0.8647463917732239,
+                -0.796370804309845
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 60882,
+            "type": "VEC4",
+            "max": [
+                0.800000011920929,
+                0.7215686440467834,
+                0.6313725709915161,
+                1.0
+            ],
+            "min": [
+                0.027450980618596077,
+                0.019607843831181526,
+                0.0117647061124444,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 364221,
+            "type": "SCALAR",
+            "max": [
+                60881
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 3892164,
+            "uri": "能面.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 730584,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 730584,
+            "byteLength": 730584,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1461168,
+            "byteLength": 974112,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2435280,
+            "byteLength": 1456884,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "material",
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0
+            },
+            "doubleSided": true,
+            "extensions": {
+                "KHR_materials_specular": {
+                    "specularFactor": 1.0
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "COLOR_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
